@@ -1,0 +1,40 @@
+.navbar{
+  height: 50px;
+  background-color: #eae7dc;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: #e85a4f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.logo{
+  font-weight: 1000;
+  text-shadow: 2px 2px black;
+  font-size: 30px;
+  font-family: Roadster ;
+  font-family: 'Roadster Script', cursive;
+  
+}
+
+.navButton{
+  margin-left: 20px;
+  border: none;
+  font-weight: 500;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #eae7dc;
+  background-color: #e85a4f;
+  border-radius: 5px;
+}
+
+@font-face {
+  font-family: 'Roadster Script';
+  src: url('/src/fonts/Rodster.ttf') format('truetype');
+}
